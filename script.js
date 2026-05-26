@@ -22,7 +22,7 @@ forms.forEach((form) => {
     const status = form.querySelector(".form-status");
     form.reset();
     if (status) {
-      status.textContent = "Thank you. Your message is ready for the next step.";
+      status.textContent = "Thank you!";
     }
   });
 });
